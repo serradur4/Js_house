@@ -19,3 +19,12 @@ const years = [2000, 2008, 2020, 2023];
 years.filter(function(year) {     //return the years > 2010
     return year >= 2010;
 });
+
+//example 
+function getYear(years, searchYear) {
+  return years.find(function(year) {
+    return year === searchYear;
+  });
+}
+//console.log(getYear([2019, 2020, 2021], 2020)); // 2020
+//console.log(getYear([2019, 2020, 2021], 1990)); // undefined
