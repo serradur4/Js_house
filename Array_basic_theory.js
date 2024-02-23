@@ -16,7 +16,7 @@ users.at(1); //"Alex"
 users.at(-2); //"Alex"
 
 const numbers = [10, 8, 13, 15];
-numbers.push(20); // returns 5 (the new length of the array)
+numbers.push(20); // returns size of 5 (the new length of the array)
 console.log(numbers); // [10, 8, 13, 15, 20];
 
 const numbers = []; // start with empty array
